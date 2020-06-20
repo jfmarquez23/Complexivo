@@ -1,0 +1,5 @@
+###Carga de Librerias
+import pandas as pd
+#Carga del DataSet
+df=pd.read_csv("C:/Users/PC/Desktop/Tesis/Practicum4_SistemasInteligentes_UTPL/DataSet/Dataset.csv",nrows=1086,encoding="ISO-8859-1")
+df.head()
